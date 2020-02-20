@@ -1,0 +1,388 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "DotNetSeleniumExtras.PageObjects/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/net45/SeleniumExtras.PageObjects.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
+      "NUnit/3.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.16.1": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.GeckoDriver/0.26.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.GeckoDriver.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "DotNetSeleniumExtras.PageObjects/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/net45/SeleniumExtras.PageObjects.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
+      "NUnit/3.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.16.1": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.GeckoDriver/0.26.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.GeckoDriver.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "DotNetSeleniumExtras.PageObjects/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/net45/SeleniumExtras.PageObjects.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
+      "NUnit/3.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.16.1": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.GeckoDriver/0.26.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.GeckoDriver.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "DotNetSeleniumExtras.PageObjects/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/net45/SeleniumExtras.PageObjects.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
+      "NUnit/3.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.16.1": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.GeckoDriver/0.26.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.GeckoDriver.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotNetSeleniumExtras.PageObjects/3.11.0": {
+      "sha512": "DJCLQ3beq1fzqpeQ5jTZwDqmzbOD2Xxsb/jCyShYam88CNwGGn5aBBqu4LVSj0sy0Ai76OauQQncYlC48VvQUQ==",
+      "type": "package",
+      "path": "dotnetseleniumextras.pageobjects/3.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
+        "dotnetseleniumextras.pageobjects.nuspec",
+        "lib/net35/SeleniumExtras.PageObjects.dll",
+        "lib/net40/SeleniumExtras.PageObjects.dll",
+        "lib/net45/SeleniumExtras.PageObjects.dll",
+        "lib/netstandard2.0/SeleniumExtras.PageObjects.dll"
+      ]
+    },
+    "NUnit/3.12.0": {
+      "sha512": "3oJTrcUcT9wmweBUwgUf0f1XIYy6RZq2ziV+RM95HMKAJGsHPN2i3MKK1dAPvDPMRLz799Llj4eyu/STB9Q7OA==",
+      "type": "package",
+      "path": "nunit/3.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "build/NUnit.props",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.pdb",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.pdb",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.pdb",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard1.4/nunit.framework.dll",
+        "lib/netstandard1.4/nunit.framework.pdb",
+        "lib/netstandard1.4/nunit.framework.xml",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.pdb",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.12.0.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "NUnit3TestAdapter/3.16.1": {
+      "sha512": "wKuxi7G9Gs2I9gnckwtMVzbPIy7vkNj+FafrmQPaYCUguT+se5kmzI3XwsVCXEalWk9pSYZW7roBkNu4ogn3DA==",
+      "type": "package",
+      "path": "nunit3testadapter/3.16.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/net35/NUnit3.TestAdapter.dll",
+        "build/net35/NUnit3.TestAdapter.pdb",
+        "build/net35/NUnit3TestAdapter.props",
+        "build/net35/nunit.engine.api.dll",
+        "build/net35/nunit.engine.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp2.1/NUnit3TestAdapter.props",
+        "build/netcoreapp2.1/nunit.engine.api.dll",
+        "build/netcoreapp2.1/nunit.engine.dll",
+        "nunit3testadapter.3.16.1.nupkg.sha512",
+        "nunit3testadapter.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/3.141.0": {
+      "sha512": "wPqzXO3f79DzqauTZSzLMKiaBCN0Z2Mv7KvWP+hnV6EL88zh/pJJnFtdIR1X5wa3hsTOpF/bBJs45rz7kArsiA==",
+      "type": "package",
+      "path": "selenium.webdriver/3.141.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/WebDriver.dll",
+        "lib/net35/WebDriver.xml",
+        "lib/net40/WebDriver.dll",
+        "lib/net40/WebDriver.xml",
+        "lib/net45/WebDriver.dll",
+        "lib/net45/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.xml",
+        "selenium.webdriver.3.141.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.GeckoDriver/0.26.0": {
+      "sha512": "ARXv3T+wFaKUmr4gfQZ5W82erSfdzFi0i1KGyBNWFRo7r1QjBa95OtM2plZa3Jxmz3hB2Pq2fRJFV6ydXGOKHA==",
+      "type": "package",
+      "path": "selenium.webdriver.geckodriver/0.26.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.WebDriver.GeckoDriver.targets",
+        "driver/linux64/geckodriver",
+        "driver/mac64/geckodriver",
+        "driver/win32/geckodriver.exe",
+        "driver/win64/geckodriver.exe",
+        "selenium.webdriver.geckodriver.0.26.0.nupkg.sha512",
+        "selenium.webdriver.geckodriver.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "DotNetSeleniumExtras.PageObjects >= 3.11.0",
+      "NUnit >= 3.12.0",
+      "NUnit3TestAdapter >= 3.16.1",
+      "Selenium.WebDriver >= 3.141.0",
+      "Selenium.WebDriver.GeckoDriver >= 0.26.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gakhuran\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\gakhuran\\source\\repos\\OnlineStore\\OnlineStore\\OnlineStore.csproj",
+      "projectName": "OnlineStore",
+      "projectPath": "C:\\Users\\gakhuran\\source\\repos\\OnlineStore\\OnlineStore\\OnlineStore.csproj",
+      "packagesPath": "C:\\Users\\gakhuran\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gakhuran\\source\\repos\\OnlineStore\\OnlineStore\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\gakhuran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "DotNetSeleniumExtras.PageObjects": {
+            "target": "Package",
+            "version": "[3.11.0, )"
+          },
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.12.0, )"
+          },
+          "NUnit3TestAdapter": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.16.1, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[3.141.0, )"
+          },
+          "Selenium.WebDriver.GeckoDriver": {
+            "target": "Package",
+            "version": "[0.26.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
